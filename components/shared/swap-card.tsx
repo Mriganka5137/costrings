@@ -2,15 +2,14 @@ import Ethereum from "@/components/icons/EthereumBlue.svg";
 import Gas from "@/components/icons/gas.svg";
 import Matic from "@/components/icons/matic.svg";
 import Swapr from "@/components/icons/swapr.svg";
-import { ArrowUpDown } from "lucide-react";
 import {
-  ArrowDownIcon,
   ArrowRightIcon,
   ChevronDownIcon,
   DoubleArrowRightIcon,
   MixerHorizontalIcon,
 } from "@radix-ui/react-icons";
 import { AnimatePresence, motion } from "framer-motion";
+import { ArrowUpDown } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Button } from "../ui/button";
