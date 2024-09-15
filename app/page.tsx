@@ -19,7 +19,6 @@ export default function Home() {
           }`}
         >
           <SwapCard
-            showRouteCard={showRouteCard}
             setShowRouteCard={setShowRouteCard}
             sellAmount={sellAmount}
             setSellAmount={setSellAmount}

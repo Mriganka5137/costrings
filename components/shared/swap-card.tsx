@@ -20,14 +20,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger } from "../ui/select";
 import { Switch } from "../ui/switch";
 
 interface SwapCardProps {
-  showRouteCard: boolean;
   setShowRouteCard: (show: boolean) => void;
   sellAmount: number;
   setSellAmount: (amount: number) => void;
 }
 
 const SwapCard: React.FC<SwapCardProps> = ({
-  showRouteCard,
   setShowRouteCard,
   sellAmount,
   setSellAmount,
