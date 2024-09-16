@@ -41,7 +41,7 @@ const NavLinks = () => {
 
 const NavActions = () => {
   return (
-    <div className="flex items-center gap-2 ">
+    <div className="flex items-center gap-2 max-md:hidden">
       <Image src={HeartBeat} alt="HeartBeat" width={40} height={40} />
       <Select>
         <SelectTrigger className="bg-gray-100 px-3 py-2 rounded-lg border-none w-fit space-x-2 focus:ring-0 focus:ring-offset-0">

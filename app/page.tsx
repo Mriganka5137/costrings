@@ -9,7 +9,7 @@ export default function Home() {
   const [sellAmount, setSellAmount] = useState(0);
 
   return (
-    <div className="flex justify-center items-start pt-20">
+    <div className="flex justify-center items-start pt-20 w-full">
       <div className="relative w-full max-w-[900px] flex justify-center">
         <div
           className={`transition-all duration-1000 ease-in-out ${
